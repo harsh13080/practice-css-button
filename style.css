@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.shape1 { 
+    width: 100px; 
+    height: 100px; 
+    background: #FF5733; 
+    border-radius: 0; 
+}
+
+.shape2 { 
+    width: 100px; 
+    height: 100px; 
+    background: #33FF57; 
+    border-radius: 20%; 
+}
+
+.shape3 { 
+    width: 100px; 
+    height: 100px; 
+    background: #3357FF; 
+    border-radius: 50%; 
+}
+
+.shape4 { 
+    width: 100px; 
+    height: 100px; 
+    background: #F1C40F; 
+    border-radius: 0 30px; 
+}
+
+.shape5 { 
+    width: 100px; 
+    height: 100px; 
+    background: #8E44AD; 
+    border-radius: 30px 0; 
+}
+
+.shape6 { 
+    width: 100px; 
+    height: 100px; 
+    background: #E67E22; 
+    border-radius: 0 50% 50% 0; 
+}
+
+.shape7 { 
+    width: 100px; 
+    height: 100px; 
+    background: #2ECC71; 
+    border-radius: 50% 0; 
+}
+
+.shape8 { 
+    width: 100px; 
+    height: 100px; 
+    background: #3498DB; 
+    border-radius: 0 0 30px 30px; 
+}
+
+.shape9 { 
+    width: 100px; 
+    height: 100px; 
+    background: #E74C3C; 
+    border-radius: 30px; 
+}
+
+.shape10 { 
+    width: 100px; 
+    height: 100px; 
+    background: #9B59B6; 
+    border-radius: 10px 50%; 
+}
+
+.shape11 { 
+    width: 100px; 
+    height: 100px; 
+    background: #F39C12; 
+    border-radius: 50% 10px; 
+}
+
+.shape12 { 
+    width: 100px; 
+    height: 100px; 
+    background: #1ABC9C; 
+    border-radius: 10% 50%; 
+}
+
+.shape13 { 
+    width: 100px; 
+    height: 100px; 
+    background: #D35400; 
+    border-radius: 20% 20%;
+}
+
+.shape14 { 
+    width: 100px; 
+    height: 100px; 
+    background: #34495E; 
+    border-radius: 30% 70%; 
+}
+
+.shape15 { 
+    width: 100px; 
+    height: 100px; 
+    background: #F5B041; 
+    border-radius: 0 30px 30px 0; 
+}
+
+.shape16 { 
+    width: 100px; 
+    height: 100px; 
+    background: #E67E22; 
+    border-radius: 50% 50%; 
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
